@@ -43,10 +43,10 @@
     "enabled": true,
     "provider": "giscus",
     "giscus": {
-      "repo": "Master08s/looks-blog",
-      "repoId": "R_kgDOO0NW3w",
+      "repo": "hxee/hxee.github.io",
+      "repoId": "R_kgDOO1UCvg",
       "category": "General",
-      "categoryId": "DIC_kwDOO0NW384Cq7p2",
+      "categoryId": "DIC_kwDOO1UCvs4Cq-5y",
       "mapping": "pathname",
       "strict": "0",
       "reactionsEnabled": "1",
@@ -71,6 +71,6 @@
       "distractionFreeMode": false,
       "language": "zh-CN"
     },
-    "description": "评论系统配置。provider 可选值：giscus, utterances, gitalk, none。enabled 为 false 时禁用所有评论功能"
+    "description":giscus"评论系统配置。provider 可选值：giscus, utterances, gitalk, none。enabled 为 false 时禁用所有评论功能"
   }
 }
