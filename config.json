@@ -7,11 +7,11 @@
     "avatar": "https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/186132306?v=4",
     "favicon": "https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/186132306?v=4",
     "language": "zh-CN",
-    "date":"2025-05-31"
+    "date":"2025-06-03"
   },
   "github": {
-    "owner": "Master08s",
-    "repo": "looks-blog",
+    "owner": "hxee",
+    "repo": "hxee.github.io",
     "token": "process.env.GITHUB_TOKEN"
   },
   "social": {
