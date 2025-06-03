@@ -5,6 +5,11 @@
     "excerpt": "你们好",
     "url": "/posts/2.html",
     "created_at": "2025-06-03",
-    "labels": []
+    "labels": [
+      {
+        "name": "随便写写",
+        "color": "76BE33"
+      }
+    ]
   }
 ]
