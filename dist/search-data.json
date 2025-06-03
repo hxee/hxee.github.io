@@ -1,9 +1,9 @@
 [
   {
-    "id": 1,
-    "title": "hello word",
-    "excerpt": "大家好~~",
-    "url": "/posts/1.html",
+    "id": 2,
+    "title": "欢迎大家",
+    "excerpt": "你们好",
+    "url": "/posts/2.html",
     "created_at": "2025-06-03",
     "labels": []
   }
