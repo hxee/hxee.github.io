@@ -71,6 +71,6 @@
       "distractionFreeMode": false,
       "language": "zh-CN"
     },
-    "description":"giscus"
+"description":giscus "评论系统配置。provider 可选值：giscus, utterances, gitalk, none。enabled 为 false 时禁用所有评论功能"
   }
 }
