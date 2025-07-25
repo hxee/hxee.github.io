@@ -5,7 +5,12 @@
     "excerpt": "第六章 你好，十八岁\n\n天，终...",
     "url": "/posts/9.html",
     "created_at": "2025-07-25",
-    "labels": []
+    "labels": [
+      {
+        "name": "小说",
+        "color": "6c1019"
+      }
+    ]
   },
   {
     "id": 8,
