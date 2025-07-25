@@ -25,6 +25,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://blog.199080.xyz/posts/5.html</loc>
+    <lastmod>2025-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://blog.199080.xyz/posts/4.html</loc>
     <lastmod>2025-07-25</lastmod>
     <changefreq>monthly</changefreq>

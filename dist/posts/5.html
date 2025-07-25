@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>第二章 永不送达的生日礼 | hxee Blog</title>
+    <meta name="description" content="第二章 永不送达的生日礼
+
+走..." />
+    <meta name="keywords" content="博客, GitHub Issues, 个人网站, 技术分享" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/27533946?v=4" />
+    <link rel="shortcut icon" href="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/27533946?v=4" />
+    <link rel="apple-touch-icon" href="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/27533946?v=4" />
+
+    <link rel="stylesheet" href="/assets/dist/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+
+    <!-- Code Block Styles -->
+    <style>
+      .code-block-wrapper {
+        margin: 1.5rem 0;
+        border-radius: 8px;
+        overflow: hidden;
+        border: 1px solid #e1e4e8;
+        background: #f6f8fa;
+        display: block;
+        width: fit-content;
+        min-width: 300px;
+        max-width: 600px;
+      }
+
+      .code-block-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 16px;
+        background: #f1f3f4;
+        border-bottom: 1px solid #e1e4e8;
+        font-size: 12px;
+        white-space: nowrap;
+      }
+
+      .code-block-lang {
+        color: #586069;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: var(--font-mono);
+      }
+
+      .code-copy-btn {
+        display: flex;
+        align-items: center;
+        padding: 4px 8px;
+        background: transparent;
+        border: 1px solid #d1d5da;
+        border-radius: 4px;
+        color: #586069;
+        cursor: pointer;
+        transition: all 0.2s;
+        font-size: 12px;
+        flex-shrink: 0;
+      }
+
+      .code-copy-btn:hover {
+        background: #e1e4e8;
+        border-color: #c6cbd1;
+      }
+
+      .code-copy-btn.copied {
+        background: #28a745;
+        border-color: #28a745;
+        color: white;
+      }
+
+      .code-block-wrapper pre {
+        margin: 0;
+        padding: 16px;
+        background: #fff;
+        overflow-x: auto;
+        font-family: var(--font-mono);
+        font-size: 14px;
+        line-height: 1.45;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        max-width: calc(100vw - 120px);
+      }
+
+      .code-block-wrapper code {
+        background: transparent;
+        padding: 0;
+        border-radius: 0;
+        font-family: inherit;
+        font-size: inherit;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+      }
+
+      /* 响应式调整 */
+      @media (max-width: 768px) {
+        .code-block-wrapper {
+          min-width: 280px;
+          max-width: 400px;
+        }
+
+        .code-block-wrapper pre {
+          max-width: 400px;
+          font-size: 13px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .code-block-wrapper {
+          min-width: 260px;
+          max-width: 300px;
+        }
+
+        .code-block-wrapper pre {
+          max-width: 300px;
+          font-size: 12px;
+          padding: 12px;
+        }
+
+        .code-block-header {
+          padding: 6px 12px;
+        }
+      }
+
+      /* 修复行内代码样式 */
+      :not(pre) > code {
+        background: #f3f4f6;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-family: var(--font-mono);
+        font-size: 0.875em;
+        color: #e11d48;
+      }
+    </style>
+
+    <!-- Iconify Icons -->
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="/assets/fonts/HarmonyOS_Sans_SC/main.css" />
+    <link rel="preconnect" href="https://fontsapi.zeoseven.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fontsapi.zeoseven.com/292/main/result.css"
+      onerror="this.href='https://fontsapi-storage.zeoseven.com/292/main/result.css'"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fontsapi.zeoseven.com/285/main/result.css"
+      onerror="this.href='https://fontsapi-storage.zeoseven.com/285/main/result.css'"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fontsapi.zeoseven.com/442/main/result.css"
+      onerror="this.href='https://fontsapi-storage.zeoseven.com/442/main/result.css'"
+    />
+    
+    <script src="/assets/dist/main.iife.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="mb-[32px] flex border-b border-[#ddd] py-[14px] font-mono" id="navigation">
+        <a href="/">hxee Blog</a>
+        <div class="ml-auto flex flex-row gap-5">
+          <a href="/">首页</a>
+          <a href="/archives.html">归档</a>
+          <a href="/categories.html">分类</a>
+          <span> | </span>
+          <a href="/search.html">
+            <span class="icon-[fa-solid--search] iconify-inline"></span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <article>
+      <!-- 标题 -->
+      <div class="text-center font-serif text-[2rem] font-bold">第二章 永不送达的生日礼</div>
+
+      <!-- 文章元信息 -->
+      <div class="mt-4 mb-8 flex flex-wrap justify-center gap-3 font-mono text-sm text-gray-600">
+        <!-- 发布时间 -->
+        <span class="flex items-center gap-1">
+          <span class="icon-[bx--calendar-alt] iconify-inline"></span>
+          <time id="post-publish-time">2025-07-25</time>
+        </span>
+
+        <!-- 作者 -->
+        <span class="flex items-center gap-1">
+          <span class="icon-[heroicons--user-circle] iconify-inline"></span>
+          <span>hxee</span>
+        </span>
+
+        <!-- 分类 -->
+        
+
+        <!-- 字数统计 -->
+        <span class="flex items-center gap-1">
+          <span class="icon-[icon-park-outline--word] iconify-inline"></span>
+          <span id="post-wordcount">0</span>
+        </span>
+
+        <!-- 预计阅读时间 -->
+        <span class="flex items-center gap-1">
+          <span class="icon-[mingcute--time-line] iconify-inline"></span>
+          <span id="post-readtime">1 min</span>
+        </span>
+
+        <!-- GitHub 链接 -->
+        <span class="flex items-center gap-1">
+          <span class="icon-[mdi--github] iconify-inline"></span>
+          <a href="https://github.com/hxee/hxee.github.io/issues/5" target="_blank" class="text-blue-600 hover:underline">
+            GitHub
+          </a>
+        </span>
+      </div>
+
+      <section class="relative">
+        <div id="post-content"><h3 id="第二章-永不送达的生日礼">第二章 永不送达的生日礼</h3><p>走廊的白炽灯光，像凝固的冰，没有一丝温度。</p>
+<p>余远僵坐在长椅上，整个世界的声音仿佛都隔着一层厚重的毛玻璃，变得模糊而遥远。他的全部感官，都聚焦在了身旁那个透明的物证袋上。</p>
+<p>袋子里，是那个他无比熟悉的粉色蛋糕盒。</p>
+<p>那是“甜心小屋”的限定款，也是他最喜欢的牌子。他记得一个月前，他和母亲路过那家店，他只是随口说了一句“这个兔子盒子真好看”，苏青便记在了心上。</p>
+<p>她总是这样，把他随口的一句话，当成最重要的事情来办。</p>
+<p>“我们远远喜欢，生日那天妈妈就给你订这个。”她当时笑着说，眼里的宠溺像是要溢出来。</p>
+<p>那时他还故作酷帅地撇撇嘴：“多大了还用这么幼稚的盒子。”</p>
+<p>可心里，却比喝了蜜还甜。</p>
+<p>现在，这份本该承载着甜蜜与祝福的礼物，就静静地躺在那里，像一个沉默的、血淋淋的指控。</p>
+<p>那可爱的卡通兔子，一只眼睛被暗红的血污完全覆盖，另一只眼睛却依旧保持着微笑的弧度，形成一种诡异而残忍的对照。粉色的硬纸盒边缘已经因为撞击而严重变形、破裂，露出里面被毁得不成样子的奶油和蛋糕胚。</p>
+<p>透过塑料袋，余远仿佛能闻到那股血腥气与奶油的甜腻味混合在一起的气息，令人作呕，也令他心碎。</p>
+<p>一名年轻的警察走过来，将另一个物证袋放在了蛋糕盒旁边。这次里面是一双崭新的球鞋，最新款的，也是余远在杂志上看了很久、却因为价格昂贵而舍不得开口的款式。</p>
+<p>鞋盒的一个角被撞瘪了，但那双鞋本身，依旧崭新得闪闪发光，仿佛在无声地诉说着购买它的人，怀着怎样期待与欣喜的心情。</p>
+<p>“这些……都是在你母亲身边发现的。”警察的声音很轻，带着不忍，“她把你保护得很好，车祸发生时，她下意识地用身体护住了这些东西。”</p>
+<p>“轰——”</p>
+<p>这句话，像一颗引爆的炸弹，在余远的脑海里炸响。</p>
+<p>他眼前瞬间浮现出一个画面：在剧烈的撞击瞬间，那个瘦弱的女人，想的不是自己，而是怀里那个可能会被压坏的蛋糕，和那双可能会被刮花的球鞋。</p>
+<p>因为，那是给她十八岁儿子的，成年礼物。</p>
+<p>心脏像是被一只无形的大手狠狠攥住，痛得他几乎无法呼吸。他伸出手，这一次，不再是试探性的触碰，而是用尽全身力气，将那两个冰冷的物证袋死死地抱进怀里。</p>
+<p>塑料袋的棱角硌得他生疼，但他毫不在意。他只想通过这种方式，去感受母亲最后残留的一丝气息和温度。</p>
+<p>他把脸深深埋进怀里，埋进这份永不送达的生日礼中。</p>
+<p>他仿佛看见，母亲在市中心的商场里，认真地为他挑选着球鞋的尺码；看见她小心翼翼地从蛋糕店的店员手里，接过那个粉色的蛋糕盒；看见她站在公交站台，满心欢喜地幻想着儿子看到礼物时惊喜的表情。</p>
+<p>她走的每一步，都充满了爱。<br>而这份爱，最终却将她引向了死亡。</p>
+<p>“对不起……”</p>
+<p>“妈……对不起……”</p>
+<p>压抑的、破碎的呢喃，从他的唇齿间溢出。</p>
+<p>如果他没有念叨那双球鞋，如果他没有说喜欢那个蛋糕盒，如果他没有在KTV里和同学鬼混，而是早点回家……是不是一切，都会不一样？</p>
+<p>可是没有如果。</p>
+<p>现实是一把无法收回的利刃，已经将他的世界劈成了两半。一半是昨天之前的阳光灿烂，另一半，是此刻及未来的血色废墟。</p>
+<p>这份生日礼物，他收到了。</p>
+<p>以一种他永生永世都无法原谅自己的方式。</p>
+<p>他抱紧了怀里的东西，像抱着母亲破碎的身体，也像抱着自己支离破碎的人生。这个夜晚，他将与这份永不送达的生日礼一起，沉入无边的深渊。</p>
+</div>
+
+        <!-- 版权许可协议 -->
+        <div class="card mt-14 px-6 py-4" id="license">
+          <div class="font-bold">第二章 永不送达的生日礼</div>
+          <div class="license-item mt-1">https://blog.199080.xyz/posts/5.html</div>
+          <div class="license-item mt-1">
+            本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议
+          </div>
+        </div>
+
+        <!-- 目录 -->
+        <aside class="absolute top-0 right-[-160px] hidden h-full w-[120px] md:block">
+          <nav class="sticky top-10 pl-4 font-serif text-[0.8rem]" id="toc"></nav>
+        </aside>
+      </section>
+
+
+    </article>
+
+    <!-- 评论系统 -->
+    
+      <div class="comments-section mt-12 mx-auto" style="max-width: 750px;">
+        <div class="border-t pt-8">
+          <h3 class="text-xl font-bold mb-6 text-center">💬 评论</h3>
+          <script src="https://giscus.app/client.js"
+                  data-repo="hxee/hxee.github.io"
+                  data-repo-id="R_kgDOO1UCvg"
+                  data-category="General"
+                  data-category-id="DIC_kwDOO1UCvs4Cq-5y"
+                  data-mapping="pathname"
+                  data-strict="0"
+                  data-reactions-enabled="1"
+                  data-emit-metadata="0"
+                  data-input-position="top"
+                  data-theme="preferred_color_scheme"
+                  data-lang="zh-CN"
+                  crossorigin="anonymous"
+                  async>
+          </script>
+        </div>
+      </div>
+    
+
+    <footer class="pt-20 pb-6">
+      <div class="flex flex-col items-center gap-1">
+        <div>© <span id="current-year"></span> · hxee</div>
+        <div>Powered by <a href="https://github.com/hxee/hxee.github.io">GitHub Issues</a></div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+
+      // 复制代码功能
+      function copyCode(button) {
+        const codeBlock = button.closest('.code-block-wrapper').querySelector('code');
+        const text = codeBlock.textContent;
+
+        navigator.clipboard.writeText(text).then(() => {
+          // 显示复制成功状态
+          const originalContent = button.innerHTML;
+          button.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20,6 9,17 4,12"></polyline></svg>';
+          button.classList.add('copied');
+
+          // 2秒后恢复原状
+          setTimeout(() => {
+            button.innerHTML = originalContent;
+            button.classList.remove('copied');
+          }, 2000);
+        }).catch(err => {
+          console.error('复制失败:', err);
+          // 降级方案：选中文本
+          const range = document.createRange();
+          range.selectNodeContents(codeBlock);
+          const selection = window.getSelection();
+          selection.removeAllRanges();
+          selection.addRange(range);
+        });
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        if (typeof main !== 'undefined') {
+          main.generateTOC && main.generateTOC();
+          main.scrollHighlightTOC && main.scrollHighlightTOC();
+          main.clickHighlightTOC && main.clickHighlightTOC();
+          main.wordCountAndReadTime && main.wordCountAndReadTime();
+          main.generateTimeTips && main.generateTimeTips();
+          main.addIconToLinks && main.addIconToLinks();
+        }
+
+      });
+    </script>
+  </body>
+</html>
