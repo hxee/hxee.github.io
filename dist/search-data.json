@@ -5,7 +5,16 @@
     "excerpt": "第二章 永不送达的生日礼\n\n走...",
     "url": "/posts/5.html",
     "created_at": "2025-07-25",
-    "labels": []
+    "labels": [
+      {
+        "name": "随便写写",
+        "color": "76BE33"
+      },
+      {
+        "name": "小说",
+        "color": "6c1019"
+      }
+    ]
   },
   {
     "id": 4,
@@ -20,7 +29,7 @@
       },
       {
         "name": "小说",
-        "color": "d6f8d9"
+        "color": "6c1019"
       }
     ]
   },
